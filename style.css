@@ -167,3 +167,43 @@ z-index: 10;
   width: 100%;
   object-fit: cover;
 }
+
+#page3{
+  width: 100%;
+  padding: 6vw 3vw;
+  background-color: #24262b;
+}
+#page3>h1{
+  font-family: larken;
+  font-size: 25vw;
+  color: #ede9e2;
+  line-height: 0.9;
+  text-transform: uppercase;
+  text-align: center;
+  position: sticky;
+  top: 13%;
+}
+#page3 .imgs{
+  width: 100%;
+  position: sticky;
+  top: 5%;
+  margin-top: 5vw;
+  transform-origin: 50% 0%;
+
+  filter: brightness(1);
+}
+
+.imgs img{
+  width: 100%;
+
+}
+.imgs h1{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: larken;
+  font-size: 6vw;
+  color: #ede9e2;
+text-transform: uppercase;
+
+}

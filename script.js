@@ -5,7 +5,6 @@ gsap.from("#page1 img",{
     scrollTrigger:{
         trigger:"#page1",
         scroller:"body",
-        markers:true,
         start:"top 0",
         end:"top -70%",
         scrub:2,
@@ -67,3 +66,53 @@ page2Elements.addEventListener("mousemove",function(dets){
 })
 
 
+// var tl = gsap.timeline({
+//     scrollTrigger:{
+//         trigger:"#page3",
+//         scroller:"body",
+//         start:"top 0%",
+//         end:"top -100%",
+//         markers:true,
+//         scrub:true,
+//         pin:true
+//     }
+// })
+
+// tl.to("#page3 img",{
+//     top:"0%"
+// })
+
+
+gsap.to("#page3 #img1",{
+    scale:0.85,
+    filter: 'brightness(0.8)',
+    scrollTrigger:{
+        trigger:"#img1",
+        scroller:"body",
+        start:"top 5%",
+        end:"top -50%",
+        scrub:true
+    }
+})
+gsap.to("#page3 #img2",{
+    scale:0.85,
+    filter: 'brightness(0.8)',
+    scrollTrigger:{
+        trigger:"#img2",
+        scroller:"body",
+        start:"top 5%",
+        end:"top -50%",
+        scrub:true
+    }
+})
+gsap.to("#page3 #img3",{
+    scale:0.85,
+    filter: 'brightness(0.8)',
+    scrollTrigger:{
+        trigger:"#img3",
+        scroller:"body",
+        start:"top 5%",
+        end:"top 0%",
+        scrub:true
+    }
+})
